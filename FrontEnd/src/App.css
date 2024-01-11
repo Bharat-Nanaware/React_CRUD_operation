@@ -1,0 +1,91 @@
+
+
+.conatainer{
+  padding: 50px;
+  max-width: 700px;
+  margin: 50px auto;
+  border-radius: 10px;
+  border: 1px solid #c9c5c2;
+  border: 1px solid #c9c5c2;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  display: block;
+  position: relative;
+}
+
+.tableContainer{
+  padding: 50px;
+  max-width: 780px;
+  margin: 50px auto;
+  border-radius: 10px;
+  border: 1px solid #c9c5c2;
+  border: 1px solid #c9c5c2;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  border: 1px solid #c9c5c2;
+}
+
+.addContainer{
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContainer form{
+  
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+
+}
+
+.addContainer form label{
+  font-size: 18px;
+}
+.addContainer form input{
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.btn{
+    border: none;
+    padding: 7px 24px;
+    font-size:15px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-add{
+  background: #194064;
+  color:antiquewhite;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.msgbox{
+  border-radius: 25px;
+}
+
+
+.tableContainer Table tbody tr td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.imgtble{
+  max-width: 300px;
+  display: block;
+}
+.submit{
+  margin: 10px;
+}
+.imagefiled{
+  max-width: 350px !important;
+}
